@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Coctails</title>
+</head>
+<body>
+    <div class="contain">
+        <div class="nav">
+            <div class="logo-contain">
+                <h1 class="logo" id="logo">LOGO</h1>
+            </div>
+            <form id="form">
+                <input type="text" id="search" placeholder="Search by Coctail name:">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+            <div class="categories">
+                <ul id="categories-list"></ul>
+            </div>
+        </div>
+        <div class="main">
+            <div class="header-contain">
+                <h2 class="header">Welcome to coctails world</h2>
+                <p class="header-info">Here you will find more then <i>645</i> drinks</p>
+            </div>
+            <div class="coctails-container">
+                <div class="coctails-header">
+                    <h2 class="section-header" id="coctails-section-header">Recomendations</h2>
+                </div>
+            
+                <div class="coctail-cards-contain" id="cards-container"></div>
+            </div>
+            <div class="section-about-coctail" id="single-coctail"></div>
+        </div>
+        
+        <div class="footer">
+            <a href="https://github.com/hovakimyanarayik" target="_blank">©Hovakimyan Arayik</a>
+        </div>
+    </div>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>

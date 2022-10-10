@@ -12,7 +12,7 @@
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background: url(./img/shutterstock_321780773.0.0.jpg);
+    background: url(./img/shutterstock_321780773.0.0.jpg), linear-gradient(90deg, rgba(2,0,36,1) 17%, rgba(24,24,78,0.9335084375547094) 50%, rgba(2,0,36,1) 83%);
     background-attachment: fixed;
 }
 
